@@ -12,35 +12,7 @@ import { WrongComponent } from './wrong/wrong.component';
 
 
 const routes: Routes = [
-  {path: '', component: WelcomeComponent},
-  {path: 'ichkannlesen', component: SearchGasteigComponent},
-  {path: 'Ichkannlesen', component: SearchGasteigComponent},
-  {path: 'katzenhirn', component: ToTheVolksbadComponent},
-  {path: 'Katzenhirn', component: ToTheVolksbadComponent},
-  {path: 'illuminaten', component: BottleToTheMaximilianeumComponent},
-  {path: 'Illuminaten', component: BottleToTheMaximilianeumComponent},
-  {path: 'illuminat', component: BottleToTheMaximilianeumComponent},
-  {path: 'Illuminat', component: BottleToTheMaximilianeumComponent},
-  {path: 'illuminati', component: BottleToTheMaximilianeumComponent},
-  {path: 'Illuminati', component: BottleToTheMaximilianeumComponent},
-  {path: 'sonnenstrahlen', component: PuzzleToTheMaxwerkComponent},
-  {path: 'Sonnenstrahlen', component: PuzzleToTheMaxwerkComponent},
-  {path: 'sonnenstrahl', component: PuzzleToTheMaxwerkComponent},
-  {path: 'Sonnenstrahl', component: PuzzleToTheMaxwerkComponent},
-  {path: 'sonne', component: PuzzleToTheMaxwerkComponent},
-  {path: 'Sonne', component: PuzzleToTheMaxwerkComponent},
-  {path: 'perspektive', component: PerspectiveToTheFriedensengelComponent},
-  {path: 'Perspektive', component: PerspectiveToTheFriedensengelComponent},
-  {path: 'friedensengel', component: PerspectiveToTheFriedensengelComponent},
-  {path: 'Friedensengel', component: PerspectiveToTheFriedensengelComponent},
-  {path: 'kommtzurvillastuck', component: PlanetsToTheStuckComponent},
-  {path: 'Kommtzurvillastuck', component: PlanetsToTheStuckComponent},
-  {path: 'villastuck', component: PlanetsToTheStuckComponent},
-  {path: 'Villastuck', component: PlanetsToTheStuckComponent},
-  {path: '3', component: TrackingToTheBiergartenComponent},
-  {path: 'E', component: TrackingToTheBiergartenComponent},
-  {path: 'e', component: TrackingToTheBiergartenComponent},
-  {path: '**', component: WrongComponent},
+  {path: 'Sanny du würdest doch nie den Quellcode ausnutzen,oder?', component: HättestDuGerneComponent}
 
 ];
 
