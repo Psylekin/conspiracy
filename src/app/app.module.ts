@@ -10,6 +10,8 @@ import { PuzzleToTheMaxwerkComponent } from './puzzle-to-the-maxwerk/puzzle-to-t
 import { PerspectiveToTheFriedensengelComponent } from './perspective-to-the-friedensengel/perspective-to-the-friedensengel.component';
 import { PlanetsToTheStuckComponent } from './planets-to-the-stuck/planets-to-the-stuck.component';
 import { TrackingToTheBiergartenComponent } from './tracking-to-the-biergarten/tracking-to-the-biergarten.component';
+import { SearchGasteigComponent } from './search-gasteig/search-gasteig.component';
+import { WrongComponent } from './wrong/wrong.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { TrackingToTheBiergartenComponent } from './tracking-to-the-biergarten/t
     PuzzleToTheMaxwerkComponent,
     PerspectiveToTheFriedensengelComponent,
     PlanetsToTheStuckComponent,
-    TrackingToTheBiergartenComponent
+    TrackingToTheBiergartenComponent,
+    SearchGasteigComponent,
+    WrongComponent
   ],
   imports: [
     BrowserModule,
